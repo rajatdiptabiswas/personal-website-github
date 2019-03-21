@@ -1,0 +1,77 @@
+layout: sidebar
+style: dark
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: stars
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 12
+  exclude:
+    forks: true
+    projects:
+    # - repo-name
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  linkedin: rajat-dipta-biswas
+  facebook: Rajat.D.Biswas
+  twitter: RajatDipta
+  stackoverflow: 8015147
+  medium: rdbiswas97
+  telegram: rdbiswas
+  youtube: channel/UCHdiT9ujHu7RNA15NKlWJOw
+  instagram: rajat.dip.tab.is.was
+  snapchat: rajatdipta
+  spotify: rajatdiptabiswas
+  letterboxd: RajatDipta
+  myanimelist: RajatDipta
+  playstation: AlphaTrailblazer
+  steam: 76561198258490252
+  discord: SlapYoKidsASAP#0400
+
+
+topics:
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+
+  - name: Java
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/java/java.png
+
+  - name: Javascript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+
+  - name: Vue.js
+    web_url: https://github.com/topics/vue
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/vue/vue.png
+
+  - name: Machine learning
+    web_url: https://github.com/topics/machine-learning
+    image_url: https://wdc.objectstorage.softlayer.net/v1/AUTH_7046a6f4-79b7-4c6c-bdb7-6f68e920f6e5/web/technologies/machine-learning-featured.svg
+  
+  - name: Material design
+    web_url: https://github.com/topics/material-design
+    image_url: https://raw.githubusercontent.com/github/explore/ae6b22689282e8e8c3c43f9e82a0e80ff83423b6/topics/material-design/material-design.png
+
+  # - name: MongoDB
+  #   web_url: https://github.com/topics/mongodb
+  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/mongodb/mongodb.png
